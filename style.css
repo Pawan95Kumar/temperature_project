@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: brown;
+    font-size: 2.2em;
+}
+#box{
+    margin-top: 150px;
+    width: 700px;
+    height: 250px;
+    /* border: 1px solid black; */
+    text-align: center;   
+}
+#container{
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    border-radius: 10px;
+position: relative;
+   background-color: wheat; 
+}
+#container .cel{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+
+}
+#container label{
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.cel #inputCel{
+    margin-top: 10px;
+padding: 10px;
+width: 200px;
+font-weight: bold;
+border: 0;
+text-align: center;
+color: crimson;
+font-size: 1.5em;
+background-color: aquamarine;
+border-radius: 10px;
+}
+#container .fah{
+    position: absolute;
+    top: 40px;
+    left: 400px;    
+}
+.fah #inputFah{
+margin-top: 10px;
+padding: 10px;
+text-align: center;
+width: 200px;
+border: 0;
+color: crimson;
+background-color: aquamarine;
+font-weight: bold;
+font-size: 1.5em;
+border-radius: 10px;
+}
